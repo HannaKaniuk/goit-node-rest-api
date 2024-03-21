@@ -5,7 +5,7 @@ import {
   findUser,
   validatePassword,
   updateUser,
-} from '../services/authSevices.js';
+} from '../services/authServices.js';
 import jwt from 'jsonwebtoken';
 
 const { JWT_SECRET } = process.env;
